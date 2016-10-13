@@ -1,0 +1,10 @@
+/**app.wxss**/
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: Microsoft YaHei;
+  margin: 0rpx;
+  box-sizing: border-box;
+} 

@@ -1,0 +1,33 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/joke/joke",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#00a2ea",
+    "navigationBarTitleText": "天天聚合",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#353535",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+      "pagePath": "pages/index/index",
+      "iconPath": "images/icon_API.png",
+      "selectedIconPath": "images/icon_API_HL.png",
+      "text": "知乎日报"
+      },
+      {
+      "pagePath": "pages/joke/joke",
+      "iconPath": "images/icon_component.png",
+      "selectedIconPath": "images/icon_component_HL.png",
+      "text": "内涵段子"
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+.scroll-view {
+  width: 96%;
+  height: 100%;
+}
+
+.sub-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 5rpx;
+  border-bottom: 1rpx solid #ccc;
+}
+
+.sub-text {
+    font-size: 30rpx;
+    color: black;
+    padding-top: 10rpx;
+    padding-bottom: 10rpx;
+}
+
+.sub-footer {
+    font-size: 10rpx;
+    color: #ccc;
+    padding-top: 10rpx;
+    padding-bottom: 10rpx;
+}

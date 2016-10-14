@@ -1,0 +1,10 @@
+<view class="container">
+ <scroll-view scroll-y="true" class="scroll-view">
+  <block wx:for="{{jokes}}">
+    <view class="sub-item">
+      <text class="sub-text">{{ item }}</text>
+      <text class="sub-footer">来源：糗事百科</text>
+    </view>
+  </block>  
+  </scroll-view>
+</view>
